@@ -61,7 +61,10 @@ h2 {
   word-spacing: 2px;
   line-height: 20px;
 }
-
+.grid-item:hover {
+  transform: scale(1.04);
+  transition-duration: 500ms;
+}
 h3 {
   display: block;
   font-size: 1.17rem;
